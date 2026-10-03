@@ -1,0 +1,12 @@
+[
+  {"id":"C001","name":"Asha Demo","amount_paise":149900,"currency":"INR","failure_reason":"insufficient_funds","mandate_status":"active","demo_code":"DEMO-001","scenario":"retry"},
+  {"id":"C002","name":"Kabir Demo","amount_paise":79900,"currency":"INR","failure_reason":"bank_unavailable","mandate_status":"active","demo_code":"DEMO-002","scenario":"retry"},
+  {"id":"C003","name":"Meera Demo","amount_paise":249900,"currency":"INR","failure_reason":"mandate_revoked","mandate_status":"revoked","demo_code":"DEMO-003","scenario":"checkout"},
+  {"id":"C004","name":"Dev Demo","amount_paise":59900,"currency":"INR","failure_reason":"mandate_expired","mandate_status":"expired","demo_code":"DEMO-004","scenario":"checkout"},
+  {"id":"C005","name":"Tara Demo","amount_paise":129900,"currency":"INR","failure_reason":"authorization_required","mandate_status":"active","demo_code":"DEMO-005","scenario":"checkout"},
+  {"id":"C006","name":"Ishan Demo","amount_paise":99900,"currency":"INR","failure_reason":"insufficient_funds","mandate_status":"active","demo_code":"DEMO-006","scenario":"callback"},
+  {"id":"C007","name":"Leela Demo","amount_paise":349900,"currency":"INR","failure_reason":"bank_unavailable","mandate_status":"active","demo_code":"DEMO-007","scenario":"opt_out"},
+  {"id":"C008","name":"Rohan Demo","amount_paise":189900,"currency":"INR","failure_reason":"insufficient_funds","mandate_status":"active","demo_code":"DEMO-008","scenario":"payment_claim"},
+  {"id":"C009","name":"Nila Demo","amount_paise":69900,"currency":"INR","failure_reason":"authorization_required","mandate_status":"active","demo_code":"DEMO-009","scenario":"dispute"},
+  {"id":"C010","name":"Arjun Demo","amount_paise":449900,"currency":"INR","failure_reason":"bank_unavailable","mandate_status":"active","demo_code":"DEMO-010","scenario":"wrong_person"}
+]

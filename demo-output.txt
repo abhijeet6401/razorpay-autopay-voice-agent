@@ -1,0 +1,71 @@
+{
+  "mode": "offline_http_rehearsal",
+  "live_provider_used": false,
+  "fictional": true,
+  "customers": 10,
+  "results": [
+    {
+      "customer_id": "C001",
+      "scenario": "retry",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 149900
+    },
+    {
+      "customer_id": "C002",
+      "scenario": "retry",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 79900
+    },
+    {
+      "customer_id": "C003",
+      "scenario": "checkout",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 249900
+    },
+    {
+      "customer_id": "C004",
+      "scenario": "checkout",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 59900
+    },
+    {
+      "customer_id": "C005",
+      "scenario": "checkout",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 129900
+    },
+    {
+      "customer_id": "C006",
+      "scenario": "callback",
+      "outcome": "callback_requested",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C007",
+      "scenario": "opt_out",
+      "outcome": "opted_out",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C008",
+      "scenario": "payment_claim",
+      "outcome": "claimed_paid",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C009",
+      "scenario": "dispute",
+      "outcome": "disputed",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C010",
+      "scenario": "wrong_person",
+      "outcome": "wrong_person",
+      "simulated_recovered_paise": 0
+    }
+  ],
+  "simulated_recovered_count": 5,
+  "simulated_recovered_paise": 669500
+}
+PASS: ten HTTP recovery scenarios; NOT a live voice-provider demonstration

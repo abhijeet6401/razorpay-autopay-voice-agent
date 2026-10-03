@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+node_modules/
+.npm-cache/
+web/dist/
+.env
+.env.*
+voice-submission.zip
+live-evidence*.json

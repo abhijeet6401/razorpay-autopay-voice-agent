@@ -1,0 +1,8 @@
+{
+  "name": "cedar-autopay-voice-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "esbuild web/vapi-entry.js --bundle --format=esm --platform=browser --outfile=web/dist/vapi.js", "check": "node --check web/app.js"},
+  "dependencies": {"@vapi-ai/web": "2.7.1"},
+  "devDependencies": {"esbuild": "0.25.12"}
+}

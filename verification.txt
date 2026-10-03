@@ -1,0 +1,94 @@
+test_all_ten_http_scenarios (test_recovery.EndToEndTests.test_all_ten_http_scenarios) ... ok
+test_blocks_cross_origin_and_dns_rebinding (test_recovery.HttpTests.test_blocks_cross_origin_and_dns_rebinding) ... ok
+test_json_input_limit (test_recovery.HttpTests.test_json_input_limit) ... ok
+test_serves_browser_and_exactly_ten_records (test_recovery.HttpTests.test_serves_browser_and_exactly_ten_records) ... ok
+test_static_allowlist_does_not_expose_project_files (test_recovery.HttpTests.test_static_allowlist_does_not_expose_project_files) ... ok
+test_assistant_does_not_receive_records_or_credentials (test_recovery.LedgerTests.test_assistant_does_not_receive_records_or_credentials) ... ok
+test_browser_reported_call_is_not_provider_attested (test_recovery.LedgerTests.test_browser_reported_call_is_not_provider_attested) ... ok
+test_consent_is_required (test_recovery.LedgerTests.test_consent_is_required) ... ok
+test_duplicate_tool_delivery_is_idempotent (test_recovery.LedgerTests.test_duplicate_tool_delivery_is_idempotent) ... ok
+test_exactly_ten_fictional_records_without_phone_numbers (test_recovery.LedgerTests.test_exactly_ten_fictional_records_without_phone_numbers) ... ok
+test_failed_identity_and_attempt_limit (test_recovery.LedgerTests.test_failed_identity_and_attempt_limit) ... ok
+test_identity_gate (test_recovery.LedgerTests.test_identity_gate) ... ok
+test_ineligible_mandate_requires_checkout (test_recovery.LedgerTests.test_ineligible_mandate_requires_checkout) ... ok
+test_invalid_token_unknown_tool_and_arguments (test_recovery.LedgerTests.test_invalid_token_unknown_tool_and_arguments) ... ok
+test_opt_out_before_identity_and_suppresses_future_sessions (test_recovery.LedgerTests.test_opt_out_before_identity_and_suppresses_future_sessions) ... ok
+test_payment_claim_and_dispute_never_confirm_recovery (test_recovery.LedgerTests.test_payment_claim_and_dispute_never_confirm_recovery) ... ok
+test_retry_is_not_recovered_until_settlement (test_recovery.LedgerTests.test_retry_is_not_recovered_until_settlement) ... ok
+test_reverification_does_not_reopen_a_pending_retry (test_recovery.LedgerTests.test_reverification_does_not_reopen_a_pending_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.972s
+
+OK
+{
+  "mode": "offline_http_rehearsal",
+  "live_provider_used": false,
+  "fictional": true,
+  "customers": 10,
+  "results": [
+    {
+      "customer_id": "C001",
+      "scenario": "retry",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 149900
+    },
+    {
+      "customer_id": "C002",
+      "scenario": "retry",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 79900
+    },
+    {
+      "customer_id": "C003",
+      "scenario": "checkout",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 249900
+    },
+    {
+      "customer_id": "C004",
+      "scenario": "checkout",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 59900
+    },
+    {
+      "customer_id": "C005",
+      "scenario": "checkout",
+      "outcome": "recovered",
+      "simulated_recovered_paise": 129900
+    },
+    {
+      "customer_id": "C006",
+      "scenario": "callback",
+      "outcome": "callback_requested",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C007",
+      "scenario": "opt_out",
+      "outcome": "opted_out",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C008",
+      "scenario": "payment_claim",
+      "outcome": "claimed_paid",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C009",
+      "scenario": "dispute",
+      "outcome": "disputed",
+      "simulated_recovered_paise": 0
+    },
+    {
+      "customer_id": "C010",
+      "scenario": "wrong_person",
+      "outcome": "wrong_person",
+      "simulated_recovered_paise": 0
+    }
+  ],
+  "simulated_recovered_count": 5,
+  "simulated_recovered_paise": 669500
+}
+PASS: ten HTTP recovery scenarios; NOT a live voice-provider demonstration
